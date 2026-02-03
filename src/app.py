@@ -22,44 +22,44 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 # In-memory activity database
 activities = {
     # Sports activities
-        "Soccer Team": {
-            "description": "Join the varsity soccer team and compete against other schools",
-            "schedule": "Mondays, Wednesdays, Fridays, 4:00 PM - 6:00 PM",
-            "max_participants": 25,
-            "participants": ["alex@mergington.edu", "chris@mergington.edu"]
-        },
-        "Basketball Club": {
-            "description": "Practice basketball skills and play pickup games",
-            "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
-            "max_participants": 20,
-            "participants": ["jordan@mergington.edu"]
-        },
-        # Artistic activities
-        "Drama Club": {
-            "description": "Perform in school plays and develop acting skills",
-            "schedule": "Wednesdays and Thursdays, 3:30 PM - 5:30 PM",
-            "max_participants": 30,
-            "participants": ["emily@mergington.edu", "lucas@mergington.edu"]
-        },
-        "Art Studio": {
-            "description": "Explore painting, drawing, and sculpture techniques",
-            "schedule": "Mondays, 3:30 PM - 5:00 PM",
-            "max_participants": 15,
-            "participants": ["ava@mergington.edu"]
-        },
-        # Intellectual activities
-        "Debate Team": {
-            "description": "Develop critical thinking and public speaking through competitive debates",
-            "schedule": "Tuesdays and Fridays, 3:30 PM - 5:00 PM",
-            "max_participants": 16,
-            "participants": ["william@mergington.edu", "isabella@mergington.edu"]
-        },
-        "Science Olympiad": {
-            "description": "Compete in science competitions and conduct experiments",
-            "schedule": "Thursdays, 3:30 PM - 5:30 PM",
-            "max_participants": 18,
-            "participants": ["ethan@mergington.edu"]
-        },
+    "Soccer Team": {
+        "description": "Join the varsity soccer team and compete against other schools",
+        "schedule": "Mondays, Wednesdays, Fridays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["alex@mergington.edu", "chris@mergington.edu"]
+    },
+    "Basketball Club": {
+        "description": "Practice basketball skills and play pickup games",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["jordan@mergington.edu"]
+    },
+    # Artistic activities
+    "Drama Club": {
+        "description": "Perform in school plays and develop acting skills",
+        "schedule": "Wednesdays and Thursdays, 3:30 PM - 5:30 PM",
+        "max_participants": 30,
+        "participants": ["emily@mergington.edu", "lucas@mergington.edu"]
+    },
+    "Art Studio": {
+        "description": "Explore painting, drawing, and sculpture techniques",
+        "schedule": "Mondays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["ava@mergington.edu"]
+    },
+    # Intellectual activities
+    "Debate Team": {
+        "description": "Develop critical thinking and public speaking through competitive debates",
+        "schedule": "Tuesdays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["william@mergington.edu", "isabella@mergington.edu"]
+    },
+    "Science Olympiad": {
+        "description": "Compete in science competitions and conduct experiments",
+        "schedule": "Thursdays, 3:30 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": ["ethan@mergington.edu"]
+    },
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
